@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            input:focus:invalid{
+                border: 5px solid red;
+            }
+        </style>
+    </head>
+
+    <body>       
+    
+    <nav></nav>
+    <main>
+        <h1>Sign up</h1>
+        <form>
+            <div>
+                <label for="user_first_name">First Name</label><br>
+                <input type="text" id="user_first_name"  name="user_first_name" minlength="3" maxlength="5"required>
+            </div>
+            <div>
+                <label for="user_last_name">Last Name</label><br>
+                <input type="text" id="user_last_name" name="user_last_name" required>
+            </div>
+            <div>
+                <label for="user_email">Email</label><br>
+                <input type="email" id="user_email" name="user_email" required>
+            </div>
+            <div>
+                <label for="user_password">Password</label><br>
+                <input type="password" id="user_password" name="user_password" required>
+            </div>
+            <div>
+                <label for="user_confirm_password">Confirm Password</label><br>
+                <input type="password" id="user_confirm_password" name="user_confirm_password" required>
+            </div>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <p>Copyright Little Lemon</p>
+    </footer>
+</body>
+</html>
